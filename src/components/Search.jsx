@@ -1,10 +1,10 @@
 import React from 'react'
 import "./search.css"
-const Search = () => {
+function Search() {
   return (
     <div className="search"> 
-    <input type="text" placeholder="search" />
-    <ion-icon name="search-outline"></ion-icon>
+      <input type="text" placeholder="Search" />
+      <ion-icon name="search-outline"></ion-icon>
     </div>
   );
 }
