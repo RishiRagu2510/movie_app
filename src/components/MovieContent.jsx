@@ -13,11 +13,10 @@ function MovieContent(){
         <span>category</span>
         </h4>
         <p>
-          Transformers: Rise of the Beasts premiered at Marina Bay Sands in Singapore 
-          on May 27, 2023, and was theatrically released in the United States on 
-          June 9, 2023, by Paramount Pictures. The film received mixed reviews from critics,
-          and grossed $439 million worldwide against a production budget of $195–200 million;
-          making the film a finthe franchise
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.Morbi commodo felis tempor augue
+        tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus.
+        Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus.
+        In rutrum aliquet dui, et placerat est molestie id.
           </p>
           <div className="button">
             <Button icon={ <ion-icon name="bookmark-outline"></ion-icon>}
