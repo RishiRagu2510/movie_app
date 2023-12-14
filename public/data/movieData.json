@@ -14,7 +14,7 @@
     "category": "Adventure",
     "type": "coming",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
-    "active": true
+    "active":true
   },
   {
     "_id": 2,
@@ -241,24 +241,8 @@
     "active": false
   },
   {
-    "_id": 16,
-    "titleImg": "../asserts/movies/joe-title.jpeg",
-    "bgImg": "../asserts/movies/joe.jpeg",
-    "previewImg": "../asserts/movies/joe.jpeg",
-    "video": "https://www.youtube.com/watch?v=2lrbAHMACrM",
-    "title": "Joe",
-    "year": "2023",
-    "date": "24th November",
-    "ageLimit": "12+",
-    "length": "2h 27m ",
-    "category": "Love",
-    "type": "schedule",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
-    "active": false
-  },
-  {
     "_id": 17,
-    "titleImg": "../asserts/movies/loe-title.jpeg",
+    "titleImg": "../asserts/movies/leo-title.jpeg",
     "bgImg": "../asserts/movies/leo.jpeg",
     "previewImg": "../asserts/movies/leo.jpeg",
     "video": "https://www.youtube.com/watch?v=2lrbAHMACrM",
@@ -284,6 +268,38 @@
     "ageLimit": "18+",
     "length": "2h 31m",
     "category": "Love",
+    "type": "schedule",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+    "active": false
+  },
+  {
+    "_id": 19,
+    "titleImg": "../asserts/movies/joe-title.jpeg",
+    "bgImg": "../asserts/movies/joe.jpeg",
+    "previewImg": "../asserts/movies/joe.jpeg",
+    "video": "https://www.youtube.com/watch?v=2lrbAHMACrM",
+    "title": "Joe",
+    "year": "2023",
+    "date": "24th November",
+    "ageLimit": "12+",
+    "length": "2h 27m ",
+    "category": "Love",
+    "type": "schedule",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
+    "active": false
+  },
+  {
+    "_id": 20,
+    "titleImg": "../asserts/movies/msd-title.jpeg",
+    "bgImg": "../asserts/movies/msd.jpeg",
+    "previewImg": "../asserts/movies/msd.jpeg",
+    "video": "https://www.youtube.com/watch?v=2lrbAHMACrM",
+    "title": "M.S. Dhoni: The Untold Story",
+    "year": "2016",
+    "date": "30th September",
+    "ageLimit": "18+",
+    "length": "3h 10m",
+    "category": "sports",
     "type": "schedule",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo felis tempor augue tristique, eget dignissim sapien ornare. Nullam vel hendrerit metus, a interdum risus. Etiam commodo lorem arcu, a tempus risus tempus sed. Proin ornare nec massa eget rhoncus. In rutrum aliquet dui, et placerat est molestie id.",
     "active": false
