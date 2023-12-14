@@ -1,8 +1,9 @@
-import React from 'react'
-import "./Header.css"
-import NavListItem from '../components/NavListItem'
-import navListData from '../data/navListData'
-import Search from '../components/Search'
+import React from 'react';
+import Button from '../components/Button';
+import NavListItem from '../components/NavListItem';
+import Search from '../components/Search';
+import navListData from '../data/navListData';
+import "./Header.css";
 
 function Header() {
   return (
@@ -16,6 +17,9 @@ function Header() {
         ))}
     </ul>
     <Search />
+    <Button icon={<ion-icon name="log-in-outline"></ion-icon>}
+    name='Sign in'
+    />
     </header>
   )
 }

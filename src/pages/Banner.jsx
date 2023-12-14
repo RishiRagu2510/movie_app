@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MovieContent from "../components/MovieContent";
 import MovieData from "../components/MovieData";
+import MovieSwiper from "../components/MovieSwiper";
 import PlayBtn from "../components/PlayBtn";
 import bgImg from '../images/bg-transformer.jpg';
 import './banner.css';
@@ -35,6 +36,7 @@ function Banner(){
         </div>
       </div>
     </div>
+    <MovieSwiper/>
   </div>
   );
 }
