@@ -19,7 +19,9 @@ function Banner(){
   useEffect(()=>{
   fetchData()
   },[])
-
+  const handleSlideChange=id=>(
+  console.log(id)
+  );
   return (
     <div className="banner">
     <div className="movie">
@@ -36,7 +38,7 @@ function Banner(){
         </div>
       </div>
     </div>
-    {movies && movies.length>0 &&  <MovieSwiper slides={movies} />}
+    {movies && movies.length>0 &&  <MovieSwiper slides={movies} slideChange={handleSlideChange}/>}
   </div>
   );
 }
