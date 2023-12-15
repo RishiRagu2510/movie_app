@@ -50,7 +50,7 @@
     bottom: -5px;
     content: '';
     background: transparent;
-    border: 10px solid #ffffff;
+    border: 5px solid #ffffff;
     border-radius: 50%;
     animation: button 1s linear infinite;
 }
@@ -59,10 +59,10 @@
     0%,
     100%{
         opacity: 0.3;
-        filter: blur(4px);
+        filter: blur(1px);
     }
     50%{
         opacity: 1;
-        filter: blur(10px);
+        filter: blur(1px);
     }
 }
