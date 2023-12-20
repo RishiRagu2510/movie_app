@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css';
 import './App.css';
 import Banner from './pages/Banner';
+import Footer from './pages/Footer';
 import Header from './pages/Header';
 import Main from './pages/Main';
 
@@ -14,6 +15,7 @@ function App() {
    <Header/>
    <Banner/>
    <Main/>
+   <Footer />
    </div>
   );
 }

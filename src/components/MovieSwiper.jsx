@@ -14,8 +14,7 @@ import { Autoplay, EffectCoverflow } from 'swiper/modules';
 function MovieSwiper({slides,slideChange}){
 return(
    <Swiper
-    effect={'coverflow'}
-    grabCursor={true}
+    effect={'coverflow'} 
     centeredSlides={true}
     slidesPerView={'auto'}
     autoplay={{
