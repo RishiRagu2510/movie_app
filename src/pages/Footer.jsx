@@ -12,7 +12,7 @@ return(
 <span>STARFLIX</span>
 </a>
 <p>
-Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.
+StarFLix is a subscription-based streaming service that allows our members to watch TV shows and movies on an internet-connected device
 </p>
 <div className="social-links mt-3">
 <a href="#" className="twitter">
@@ -45,11 +45,9 @@ Designed by <h4>BP Technology</h4>
 <h4>Useful Links</h4>
 <ul>
 
-    <a href="#">Home</a>
-    
-    <a href="#watchlist">Watchlist</a>
-  
-    <a href="#upcoming">Upcoming</a>
+    <li>Terms and Service</li>
+    <li>Privacy Policy</li>
+    <li>Help Center</li>
 </ul>
 </div>
 <div className="col-lg-2 col-6 footer-links">

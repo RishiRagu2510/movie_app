@@ -1,4 +1,4 @@
-.header{
+header{
     position:fixed;
     top:0;
     left:0;
@@ -7,25 +7,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
-    transition: 0.9s all ease;
+    transition: 0.5s;
     z-index: 10000;
 }
 
-.header.active{
-    position:sticky;
-    top:0;
-    left:0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px;
-    transition: 0.9s all ease;
-    z-index: 10000;
-    display: none;
-}
 
-.header.scrolled{
+header.scrolled{
     background: rgba(0,0,0,0.6);
     border-bottom: 2px solid var(--primary);
     border-image: linear-gradient(90deg,transparent,var(--primary),transparent)

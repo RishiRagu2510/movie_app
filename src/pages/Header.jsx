@@ -1,29 +1,28 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Button from '../components/Button';
 import NavListItem from '../components/NavListItem';
 import Search from '../components/Search';
 import navListData from '../data/navListData';
 import "./Header.css";
 
-function Header() {
-  const [active,setActive]=useState(false);
-  const isActive =()=>{
-    window.scrollY>0?setActive(true):setActive(false);
+function Header({scroll}) {
+  const[navList,setNavList]=useState(navListData)
+  const handleNavOnClick=id=>{
+    const newNavList=navList.map(nav=>{
+      nav.active=false;
+      if(nav._id===id)nav.active=true;
+      return nav;
+    });
   }
-  useEffect(()=>{
-    window.addEventListener("scroll",isActive);
-    return ()=>{
-      window.removeEventListener("scroll",isActive)
-    };
-  },[]);
   return (
-    <header className={active?'header active':'header'}>
+    
+    <header className={`${scroll>1?'scrolled':undefined}`}>
     <a href="/" className="logo">
         StarFlix
     </a>
     <ul className="nav">
-    {navListData.map(nav => (
-            <NavListItem key={nav._id} nav={nav}/>
+    {navList.map(nav => (
+            <NavListItem key={nav._id} nav={nav} navOnClick={handleNavOnClick} />
         ))}
     </ul>
     <Search />
