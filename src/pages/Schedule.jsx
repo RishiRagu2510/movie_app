@@ -67,12 +67,12 @@ function Schedule(){
            })
        );
        
-        if(category==='All')
+        if(category=='All')
         {
             setMovies(data);
             return;
         }
-        setMovies(data.filter(movie=>movie.category===category));
+        setMovies(data.filter(movie=>movie.category==category));
     };
 
     return(

@@ -10,7 +10,7 @@ function Header({scroll}) {
   const handleNavOnClick=id=>{
     const newNavList=navList.map(nav=>{
       nav.active=false;
-      if(nav._id===id)nav.active=true;
+      if(nav._id==id)nav.active=true;
       return nav;
     });
   }
