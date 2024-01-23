@@ -3,33 +3,51 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //Import Swiper styles
 import 'swiper/css';
 import './App.css';
-import BackToTop from './components/BackToTop';
-import Banner from './pages/Banner';
-import Footer from './pages/Footer';
-import Header from './pages/Header';
-import Main from './pages/Main';
-
-import { useEffect, useState } from "react";
+import Header from "../src/pages/Header"
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+} from "react-router-dom";
+import SignIn from './components/SignIn';
+import Home from './pages/Home';
+import SignUp from './components/SignUp';
 
 function App() {
-  const[scroll,setScroll]=useState(0);
-  useEffect(()=>{
-    window.addEventListener('scroll',()=>{
-      setScroll(window.scrollY);
-    });
-    return()=>{
-      window.removeEventListener('scroll',()=>{
-        setScroll(window.scrollY);
-      });
-    };
-  },[scroll]);
+  const Layout=()=>{
+    return(
+      <div>
+        <Outlet/>
+      </div>
+    )
+  }
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Home/>,
+        },
+        {
+          path:"/home",
+          element:<Home/>
+        },
+        {
+          path:"/SignIn",
+          element:<SignIn/>
+        },
+        {
+          path:"/SignUp",
+          element:<SignUp/>
+        }
+      ],
+    },
+  ]);
   return (
     <div>
-   <Header scroll={scroll}/>
-   <Banner/>
-   <Main/>
-   <Footer />
-   <BackToTop scroll={scroll}/>
+     <RouterProvider router={router} />
    </div>
   );
 }

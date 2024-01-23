@@ -34,3 +34,35 @@ header.scrolled{
 .nav{
     display: flex;
 }
+.nav:hover{
+    color: var(--primary);
+}
+
+.signin{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    padding-right: 5px;
+    padding-top: 2px;
+    text-decoration: none;
+    background-color: var(--primary);
+}
+
+.signin:hover{
+    background-color:green;
+}
+
+@media (max-width: 768p)
+{
+    .logo{
+        font-size: 33px;
+    }
+    .signin{
+        font-size: 14px;
+    }
+    .nav{
+        display: block;
+    }
+}

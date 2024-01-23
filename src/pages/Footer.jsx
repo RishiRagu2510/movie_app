@@ -30,14 +30,14 @@ StarFLix is a subscription-based streaming service that allows our members to wa
 </div>
 <div className="container">
 <div className="copyright">
-&#169; Copyright{''}
+&#169;Copyright{''}
 <strong>
-<span> BP Technology </span>
+
 </strong>
 All Rights Reserved
 </div>
 <div className="credits">
-Designed by <h4>BP Technology</h4>
+
 </div>
 </div>
 </div>
