@@ -34,14 +34,14 @@ setuser((prev)=>{
     <div className="sign">
     
 <form className="form">
-  <h2 style={{color:"white"}}>UserName :</h2><input name="name" type="text" onChange={handlechange} ></input>
-<h2 style={{color:"white"}}>Email :</h2><input name="email" type="text" onChange={handlechange}></input>
-<h2 style={{color:"white"}}>Password :</h2><input name="password" type="password" onChange={handlechange} ></input>
-<h2 style={{color:"white"}}>Confirm Password :</h2><input name="confirm_password" type="password" onChange={handlechange} ></input>
+  <h6 >UserName </h6><input name="name" type="text" onChange={handlechange} ></input>
+  <h6 >Email </h6><input name="email" type="text" onChange={handlechange}></input>
+  <h6 >Password </h6><input name="password" type="password" onChange={handlechange} ></input>
+  <h6 >Confirm Password </h6><input name="confirm_password" type="password" onChange={handlechange} ></input>
 
-<button type="submit" onClick={handlesubmit}><Link to="/signin" className="sfc">Sign up</Link></button>
+<button type="submit" onClick={handlesubmit}><Link to="/signin" id="signup">Sign up</Link></button>
 <Link to="/signin" className="sfc">
-<h4>I have an already account</h4></Link>
+<p>I have an already account?</p></Link>
 </form>
 
     </div>

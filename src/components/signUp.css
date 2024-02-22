@@ -1,7 +1,5 @@
 /* signUp.css */
 
-
-
 .sign{
     display: flex;
     align-items: center;
@@ -15,7 +13,8 @@
 .form {
     max-width: 400px;
     padding: 20px;
-    background:transparent;
+    /* background:transparent; */
+    background-color: rgb(219, 237, 239);
     border-radius: 8px;
     width: 100%;
 }
@@ -29,6 +28,8 @@ input {
     padding: 10px;
     margin-bottom: 16px;
     box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 button {
@@ -36,8 +37,8 @@ button {
     padding: 12px;
     background-color: #4caf50;
     color: white;
-    border: none;
-    border-radius: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -55,9 +56,18 @@ h2 {
 }
 .sfc{
     text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
+    color: black;
 }
+
+.sfc:hover{
+    color: rgb(14, 48, 171);
+}
+
+#signup{
+    text-decoration: none;
+    color: white;
+}
+
 input {
     width: 100%;
     padding: 10px;
@@ -67,11 +77,11 @@ input {
 
 button {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     background-color: #4caf50;
     color: white;
-    border: none;
-    border-radius: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
     cursor: pointer;
 }
 
